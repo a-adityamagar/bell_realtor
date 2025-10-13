@@ -55,7 +55,7 @@ export default function Benefits() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`${benefit.bgColor} ${benefit.textColor} rounded-2xl p-8 sm:p-10 
+              className={`${benefit.bgColor} ${benefit.textColor}  p-8 sm:p-10 
                 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1
                 flex flex-col h-full`}
             >

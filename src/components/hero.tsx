@@ -17,17 +17,14 @@ export default function Hero() {
             className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-xl mx-auto space-y-3 sm:space-y-4 lg:space-y-5"
           >
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1A3551] leading-tight">
-              Partner with Botel
+              Become a Botel Partner.
               <span className="block text-[#FF7A6B] mt-1">
-                Earn Passive Income
+                Start Earning on Every Referral
               </span>
-              <span className="text-[#1A3551]"> on Every Sale</span>
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-[#1A3551]/80 max-w-md sm:max-w-lg lg:max-w-xl mx-auto lg:mx-0">
-              Help your clients secure their deliveries while earning commission.
-              Share your unique code, they save money, and you earn on every Botel
-              purchase.
+              Help your clients and followers save while you earn commission every time a Botel is purchased using your unique code.
             </p>
 
             {/* Stats */}

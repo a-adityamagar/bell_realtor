@@ -6,7 +6,7 @@ import Hero from './components/hero'
 import HowItWorks from './components/howItwork'
 import Navbar from './components/navBar'
 import TwoFour from './components/twoFour'
-
+import Security from './components/security'
 
 function App() {
  
@@ -18,6 +18,7 @@ function App() {
       <HowItWorks />
       <TwoFour/>
       <Benefits/>
+      <Security/>
       <Calculator/>
     </>
   )

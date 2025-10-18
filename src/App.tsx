@@ -7,6 +7,7 @@ import HowItWorks from './components/howItwork'
 import Navbar from './components/navBar'
 import TwoFour from './components/twoFour'
 import Security from './components/security'
+import CabinSuite from './components/cabinsuit'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <HowItWorks />
       <TwoFour/>
+      <CabinSuite/>
       <Benefits/>
       <Security/>
       <Calculator/>

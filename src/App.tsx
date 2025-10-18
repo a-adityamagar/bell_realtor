@@ -8,6 +8,7 @@ import Navbar from './components/navBar'
 import TwoFour from './components/twoFour'
 import Security from './components/security'
 import CabinSuite from './components/cabinsuit'
+import Footer from './components/footer'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       <Benefits/>
       <Security/>
       <Calculator/>
+      <Footer/>
     </>
   )
 }

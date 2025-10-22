@@ -100,7 +100,7 @@ export default function Contact() {
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
                         focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
                         transition-all outline-none text-[#1A3551]"
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                     />
                   </div>
                 </div>
@@ -122,7 +122,7 @@ export default function Contact() {
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
                         focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
                         transition-all outline-none text-[#1A3551]"
-                      placeholder="john@example.com"
+                      placeholder="youremail@gmail.com"
                     />
                   </div>
                 </div>

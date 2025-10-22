@@ -9,6 +9,7 @@ import TwoFour from './components/twoFour'
 import Security from './components/security'
 import CabinSuite from './components/cabinsuit'
 import Footer from './components/footer'
+import Contact  from './components/contact'
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
       <Benefits/>
       <Security/>
       <Calculator/>
+      <Contact/>
       <Footer/>
     </>
   )

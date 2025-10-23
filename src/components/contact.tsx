@@ -64,7 +64,7 @@ export default function Contact() {
           className="text-center mb-12 sm:mb-16 space-y-4"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1A3551]">
-            Get Started with <span className="text-[#FF7A6B]">Botel</span>
+            Get Started with <span className="text-[#82da99]">Botel</span>
           </h2>
           <p className="text-base sm:text-lg text-[#1A3551]/70 max-w-2xl mx-auto">
             Join our affiliate program today and start earning. Fill out the form below and we'll get back to you within 24 hours.
@@ -89,7 +89,7 @@ export default function Contact() {
                     Full Name *
                   </label>
                   <div className="relative">
-                    <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5 pointer-events-none" />
+                    <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5 pointer-events-none" />
                     <input
                       type="text"
                       id="name"
@@ -98,7 +98,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
-                        focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
+                        focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] 
                         transition-all outline-none text-[#1A3551]"
                       placeholder="Your Name"
                     />
@@ -111,7 +111,7 @@ export default function Contact() {
                     Email Address *
                   </label>
                   <div className="relative">
-                    <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5 pointer-events-none" />
+                    <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5 pointer-events-none" />
                     <input
                       type="email"
                       id="email"
@@ -120,7 +120,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
-                        focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
+                        focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] 
                         transition-all outline-none text-[#1A3551]"
                       placeholder="youremail@gmail.com"
                     />
@@ -133,7 +133,7 @@ export default function Contact() {
                     Contact Number *
                   </label>
                   <div className="relative">
-                    <Phone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5 pointer-events-none" />
+                    <Phone className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5 pointer-events-none" />
                     <input
                       type="tel"
                       id="phone"
@@ -142,7 +142,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
-                        focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
+                        focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] 
                         transition-all outline-none text-[#1A3551]"
                       placeholder="+1 (555) 000-0000"
                     />
@@ -155,7 +155,7 @@ export default function Contact() {
                     Instagram Username
                   </label>
                   <div className="relative">
-                    <Instagram className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5 pointer-events-none" />
+                    <Instagram className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5 pointer-events-none" />
                     <input
                       type="text"
                       id="instagram"
@@ -163,7 +163,7 @@ export default function Contact() {
                       value={formData.instagram}
                       onChange={handleChange}
                       className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
-                        focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
+                        focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] 
                         transition-all outline-none text-[#1A3551]"
                       placeholder="@yourusername"
                     />
@@ -177,7 +177,7 @@ export default function Contact() {
                   Message *
                 </label>
                 <div className="relative">
-                  <MessageSquare className="absolute left-4 top-4 text-[#FF7A6B] w-5 h-5 pointer-events-none" />
+                  <MessageSquare className="absolute left-4 top-4 text-[#82da99] w-5 h-5 pointer-events-none" />
                   <textarea
                     id="message"
                     name="message"
@@ -186,7 +186,7 @@ export default function Contact() {
                     required
                     rows={5}
                     className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl 
-                      focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] 
+                      focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] 
                       transition-all outline-none text-[#1A3551] resize-none"
                     placeholder="Tell us about your business and how you'd like to promote Botel..."
                   />
@@ -204,7 +204,7 @@ export default function Contact() {
                   flex items-center justify-center gap-2 transition-all duration-300
                   ${isSubmitting 
                     ? 'bg-gray-400 cursor-not-allowed' 
-                    : 'bg-[#FF7A6B] hover:bg-[#FF7A6B]/90 shadow-lg hover:shadow-xl'
+                    : 'bg-[#82da99] hover:bg-[#82da99]/90 shadow-lg hover:shadow-xl'
                   }`}
               >
                 {isSubmitting ? (
@@ -284,8 +284,8 @@ export default function Contact() {
                   </p>
                   <button
                     onClick={() => setShowAlert(false)}
-                    className="bg-[#FF7A6B] text-white px-8 py-3 rounded-full font-semibold
-                      hover:bg-[#FF7A6B]/90 transition-all duration-300 shadow-lg"
+                    className="bg-[#82da99] text-white px-8 py-3 rounded-full font-semibold
+                      hover:bg-[#82da99]/90 transition-all duration-300 shadow-lg"
                   >
                     Got it
                   </button>

@@ -18,7 +18,7 @@ export default function Hero() {
           >
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1A3551] leading-tight">
               Become a Botel Partner.
-              <span className="block text-[#FF7A6B] mt-1">
+              <span className="block text-[#82da99] mt-1">
                 Start Earning on Every Referral
               </span>
             </h1>
@@ -41,7 +41,7 @@ export default function Hero() {
                   transition={{ delay: 0.2 * i }}
                   className="p-2 sm:p-3 md:p-4 bg-white/70 rounded-xl shadow-sm hover:shadow-md transition"
                 >
-                  <div className="text-base sm:text-lg md:text-xl font-bold text-[#FF7A6B]">
+                  <div className="text-base sm:text-lg md:text-xl font-bold text-[#1a3551]">
                     {stat.value}
                   </div>
                   <div className="text-xs sm:text-sm text-[#1A3551]/70 mt-1">
@@ -71,8 +71,8 @@ export default function Hero() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="w-full sm:w-auto px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 text-xs sm:text-sm md:text-base 
-                  bg-[#FF7A6B] text-white rounded-full font-semibold shadow-md hover:shadow-lg
-                  hover:bg-[#FF7A6B]/90 transition-all duration-300"
+                  bg-[#1a3551] text-white rounded-full font-semibold shadow-md hover:shadow-lg
+                  hover:bg-[#1a3551]/90 transition-all duration-300"
               >
                 Get Affiliate Code
               </motion.button>

@@ -6,25 +6,25 @@ const steps = [
     number: "1",
     title: "Register as Affiliate",
     description: "Sign up and complete your profile to join our affiliate program. It's quick and free to get started.",
-    icon: <Upload className="w-8 h-8 text-[#FF7A6B]" />,
+    icon: <Upload className="w-8 h-8 text-[#82da99]" />,
   },
   {
     number: "2",
     title: "Get Your Code",
     description: "Receive your unique affiliate code that you can share with clients and your network.",
-    icon: <CreditCard className="w-8 h-8 text-[#FF7A6B]" />,
+    icon: <CreditCard className="w-8 h-8 text-[#82da99]" />,
   },
   {
     number: "3",
     title: "Share & Earn",
     description: "Share your code with clients. They get discounts, you earn commission on every booking.",
-    icon: <Share className="w-8 h-8 text-[#FF7A6B]" />,
+    icon: <Share className="w-8 h-8 text-[#82da99]" />,
   },
   {
     number: "4",
     title: "Track Progress",
     description: "Monitor your earnings and bookings in real-time through your personalized dashboard.",
-    icon: <Users className="w-8 h-8 text-[#FF7A6B]" />,
+    icon: <Users className="w-8 h-8 text-[#82da99]" />,
   }
 ];
 
@@ -40,7 +40,7 @@ export default function HowItWorks() {
           className="text-center mb-16 space-y-4"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A3551]">
-            How It <span className="text-[#FF7A6B]">Works</span>
+            How It <span className="text-[#82da99]">Works</span>
           </h2>
           <p className="text-[#1A3551]/70 text-lg max-w-2xl mx-auto">
             Start earning passive income with Botel in four simple steps
@@ -59,13 +59,13 @@ export default function HowItWorks() {
               className="relative p-6 rounded-2xl bg-white border border-gray-100 shadow-lg group hover:shadow-xl transition-all duration-300"
             >
               {/* Step Number */}
-              <div className="text-sm font-medium text-[#FF7A6B] mb-4">
+              <div className="text-sm font-medium text-[#82da99] mb-4">
                 Step {step.number}
               </div>
 
               {/* Content */}
               <div className="space-y-4">
-                <div className="p-3 bg-[#FF7A6B]/10 rounded-lg inline-block">
+                <div className="p-3 bg-[#82da99]/10 rounded-lg inline-block">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-bold text-[#1A3551]">
@@ -91,8 +91,8 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <button className="bg-[#FF7A6B] text-white px-8 py-3 rounded-full font-medium 
-            hover:bg-[#FF7A6B]/90 transition-all duration-200 shadow-lg hover:shadow-xl">
+          <button className="bg-[#1a3551] text-white px-8 py-3 rounded-full font-medium 
+            hover:bg-[#1a3551]/90 transition-all duration-200 shadow-lg hover:shadow-xl">
             Become an Affiliate
           </button>
         </motion.div>

@@ -21,7 +21,7 @@ export default function CabinSuite() {
       label: 'Cabin',
       size: '1.5 x 3ft',
       description: 'Small bags, packages, short-stay stashes.',
-      bgColor: 'from-red-50 to-orange-50',
+      bgColor: 'from-[#82da99]/20 to-white',
       image: cabinsuit
     },
     {
@@ -29,7 +29,7 @@ export default function CabinSuite() {
       label: 'Suite',
       size: '3ft x 3ft',
       description: 'Full luggage, event bags, long stays',
-      bgColor: 'from-purple-50 to-pink-50',
+      bgColor: 'from-[#ff7a6b]/20 to-white',
       image: cabinsuit
     }
   ];
@@ -45,7 +45,7 @@ export default function CabinSuite() {
           transition={{ duration: 0.5 }}
           className="text-center mb-8 sm:mb-10"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#FF7A6B]">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#82da99]">
             Cabin + Suite
           </h2>
           <h3 className="text-2xl sm:text-3xl font-bold text-[#1A3551] mt-2">
@@ -109,8 +109,8 @@ export default function CabinSuite() {
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${
                       card.id === 'cabin'
-                        ? 'from-[#FF7A6B]/20 to-[#FF7A6B]/5'
-                        : 'from-[#1A3551]/20 to-[#1A3551]/5'
+                        ?  'from-[#1A3551]/20 to-[#1A3551]/5'
+                        : 'from-[#FF7A6B]/20 to-[#FF7A6B]/5'
                     } rounded-2xl blur-xl`}
                   />
                   <img

@@ -57,7 +57,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.02 }}
               onClick={(e) => smoothScroll(e as any, '#home')}
             >
-              <span className="text-3xl font-bold text-[#FF7A6B]">
+              <span className="text-3xl font-bold text-[#82da99]">
                 BOTEL
               </span>
               <span className="text-sm text-[#1A3551] hidden sm:block font-light tracking-wider">
@@ -82,7 +82,7 @@ export default function Navbar() {
 
               <motion.button
                 onClick={(e) => smoothScroll(e, '#cta-section')}
-                className="bg-[#FF7A6B] text-white hover:bg-[#FF7A6B]/90 px-6 py-2.5 rounded-full
+                className="bg-[#1a3551] text-white hover:bg-[#1a3551]/90 px-6 py-2.5 rounded-full
                   font-medium text-sm transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -94,7 +94,7 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <motion.button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden text-[#1A3551] p-2 z-50 relative"
+              className="md:hidden text-[#1a3551] p-2 z-50 relative"
               whileTap={{ scale: 0.95 }}
               aria-label="Toggle menu"
             >
@@ -129,7 +129,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
-                    className="text-[#1A3551] hover:text-[#FF7A6B] text-xl font-medium py-4 
+                    className="text-[#1A3551] hover:text-[#82da99] text-xl font-medium py-4 
                       border-b border-gray-100 transition-colors duration-200"
                   >
                     {item}
@@ -143,7 +143,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
                 onClick={(e) => smoothScroll(e, '#cta-section')}
-                className="w-full bg-[#FF7A6B] text-white hover:bg-[#FF7A6B]/90 py-4 rounded-full
+                className="w-full bg-[#82da99] text-white hover:bg-[#82da99]/90 py-4 rounded-full
                   font-semibold text-lg transition-all duration-200 shadow-lg"
               >
                 Join Now

@@ -14,7 +14,7 @@ export default function Benefits() {
       icon: Shield,
       title: "Secure and Transparent Transactions",
       description: "Our blockchain-based system guarantees tamper-proof, transparent transactions. Payments are easily made through our platform, providing a secure way to handle investment yields.",
-      bgColor: "bg-[#FF7A6B]",
+      bgColor: "bg-[#1A3551]",
       textColor: "text-white"
     },
     {
@@ -65,7 +65,7 @@ export default function Benefits() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl sm:text-2xl font-bold mb-4 leading-tight">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 leading-tight text-[#82da99]">
                 {benefit.title}
               </h3>
 

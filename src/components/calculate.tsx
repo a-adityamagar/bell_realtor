@@ -45,7 +45,7 @@ export default function Calculator() {
           className="text-center mb-12 space-y-4"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A3551]">
-            Calculate Your <span className="text-[#FF7A6B]">Potential Earnings</span>
+            Calculate Your <span className="text-[#82da99]">Potential Earnings</span>
           </h2>
           <p className="text-[#1A3551]/70 text-lg max-w-2xl mx-auto">
             See how much you and your clients can benefit from our affiliate program
@@ -70,13 +70,13 @@ export default function Calculator() {
                 Expected Monthly Sales
               </label>
               <div className="relative">
-                <ShoppingCart className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5" />
+                <ShoppingCart className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5" />
                 <input
                   type="number"
                   min="1"
                   value={monthlySales}
                   onChange={(e) => setMonthlySales(Math.max(1, Number(e.target.value)))}
-                  className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] transition-all"
+                  className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] transition-all"
                 />
               </div>
             </div>
@@ -87,13 +87,13 @@ export default function Calculator() {
                 Average Botel Price ($)
               </label>
               <div className="relative">
-                <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#FF7A6B] w-5 h-5" />
+                <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#82da99] w-5 h-5" />
                 <input
                   type="number"
                   min="100"
                   value={averagePrice}
                   onChange={(e) => setAveragePrice(Math.max(100, Number(e.target.value)))}
-                  className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#FF7A6B]/20 focus:border-[#FF7A6B] transition-all"
+                  className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-[#82da99]/20 focus:border-[#82da99] transition-all"
                 />
               </div>
             </div>
@@ -103,15 +103,15 @@ export default function Calculator() {
               <h4 className="font-semibold mb-4">Program Benefits</h4>
               <div className="space-y-3 text-sm">
                 <div className="flex items-center gap-2">
-                  <Users className="w-4 h-4 text-[#FF7A6B]" />
+                  <Users className="w-4 h-4 text-[#82da99]" />
                   <span>Clients save {discount}% on every booking</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <TrendingUp className="w-4 h-4 text-[#FF7A6B]" />
+                  <TrendingUp className="w-4 h-4 text-[#82da99]" />
                   <span>You earn {commissionRate}% commission</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-[#FF7A6B]" />
+                  <Calendar className="w-4 h-4 text-[#82da99]" />
                   <span>Monthly payments & reporting</span>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function Calculator() {
                     onClick={() => setViewMode('monthly')}
                     className={`px-6 py-2 rounded-full font-semibold text-sm transition-all ${
                       viewMode === 'monthly'
-                        ? 'bg-[#FF7A6B] text-white shadow-lg'
+                        ? 'bg-[#82da99] text-white shadow-lg'
                         : 'bg-transparent text-white/70 hover:text-white'
                     }`}
                   >
@@ -138,7 +138,7 @@ export default function Calculator() {
                     onClick={() => setViewMode('annual')}
                     className={`px-6 py-2 rounded-full font-semibold text-sm transition-all ${
                       viewMode === 'annual'
-                        ? 'bg-[#FF7A6B] text-white shadow-lg'
+                        ? 'bg-[#82da99] text-white shadow-lg'
                         : 'bg-transparent text-white/70 hover:text-white'
                     }`}
                   >
@@ -150,7 +150,7 @@ export default function Calculator() {
               <h3 className="text-3xl font-bold mb-2">
                 Estimated {viewMode === 'monthly' ? 'Monthly' : 'Annual'} Earnings
               </h3>
-              <p className="text-4xl font-extrabold mb-8 text-[#FF7A6B]">
+              <p className="text-4xl font-extrabold mb-8 text-[#82da99]">
                 ${(viewMode === 'monthly' ? monthlyEarnings : annualEarnings).toLocaleString('en-US', { minimumFractionDigits: 2 })}
               </p>
 
@@ -161,7 +161,7 @@ export default function Calculator() {
                 </div>
                 <div>
                   <p className="text-sm text-white/70">Client Savings</p>
-                  <p className="text-2xl font-bold text-[#FF7A6B]">${totalClientSavings.toLocaleString('en-US')}</p>
+                  <p className="text-2xl font-bold text-[#82da99]">${totalClientSavings.toLocaleString('en-US')}</p>
                 </div>
                 <div>
                   <p className="text-sm text-white/70">Original Price</p>
@@ -169,13 +169,13 @@ export default function Calculator() {
                 </div>
                 <div>
                   <p className="text-sm text-white/70">Discounted Price</p>
-                  <p className="text-lg font-semibold text-[#FF7A6B]">${priceAfterDiscount.toLocaleString('en-US')}</p>
+                  <p className="text-lg font-semibold text-[#82da99]">${priceAfterDiscount.toLocaleString('en-US')}</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-10">
-              <button className="w-full py-3 rounded-lg bg-[#FF7A6B] hover:bg-[#ff6553] transition font-semibold text-white">
+              <button className="w-full py-3 rounded-lg bg-[#82da99] hover:bg-[#ff6553] transition font-semibold text-white">
                 Get a Quote
               </button>
               <p className="text-xs text-white/60 mt-3 text-center">
